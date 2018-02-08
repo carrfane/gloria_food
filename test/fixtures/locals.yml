@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  restaurant_token: MyString
+  restaurant: one
+
+two:
+  restaurant_token: MyString
+  restaurant: two
