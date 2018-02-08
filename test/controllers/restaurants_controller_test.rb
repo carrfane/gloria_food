@@ -7,7 +7,7 @@ class RestaurantsControllerTest < ActionDispatch::IntegrationTest
   end
   
   test "should get new" do
-    get new_restaurant_path
+    get new_restaurant_paths
     assert_response :success
   end
 end

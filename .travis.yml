@@ -7,4 +7,9 @@ before_script:
 script:
   - bundle exec rails test
 notifications:
-  email: false
+  email:
+    recipients:
+      - hector.carrillo@methodo.cl
+      - wilson.sayago@methodo.cl
+    on_success: never
+    on_failure: always
