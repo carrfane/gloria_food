@@ -1,10 +1,10 @@
 language: ruby
 rvm:
-  - 2.4.0
+  - 2.3.1
 before_script:
   - bundle exec rails db:create --all
   - bundle exec rails db:migrate
 script:
-  - bundle exec rails tests
+  - bundle exec rails test
 notifications:
   email: false
